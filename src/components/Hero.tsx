@@ -20,12 +20,12 @@ export default function Hero() {
         </h1>
 
         <div className="rise mt-12 pt-8" style={{ animationDelay: "300ms" }}>
-          <div className="grid gap-10 md:grid-cols-12 md:gap-12">
-            <p className="max-w-xl text-lg leading-relaxed text-dim md:col-span-7 md:text-xl">
+          <div className="flex flex-col gap-10 md:flex-row md:gap-12 justify-between">
+            <p className="max-w-xl text-lg leading-relaxed text-dim md:text-xl">
               {person.intro}
             </p>
 
-            <div className="md:col-span-5 md:pl-6">
+            <div className="md:pl-6">
               <a
                 href="#contact"
                 className="group relative inline-flex items-center gap-3 border border-paper px-6 py-3 text-sm font-bold transition-colors duration-300 hover:text-ink"
