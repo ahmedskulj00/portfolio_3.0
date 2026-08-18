@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     template: `%s — ${person.name}`,
   },
   description: person.intro,
+  icons: {
+    icon: "/favicon.png",
+  },
+  manifest: "/site.webmanifest",
+  alternates: {
+    canonical: siteUrl,
+  },
   keywords: [
     person.name,
     "Frontend Developer",
